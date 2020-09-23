@@ -1,0 +1,249 @@
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+nav > section {
+  width: 100%;
+  max-width: 750px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px auto 0px auto;
+}
+
+section {
+  width: 100%;
+  max-width: 750px;
+  padding: 50px 10px 5px 10px;
+  margin: 0px auto 0px auto;
+}
+
+form > * {
+  display: block;
+}
+
+form > input,
+textarea {
+  margin-bottom: 15px;
+}
+
+table,
+th,
+td {
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px 3px 2px 3px;
+}
+
+pre {
+  background-color: rgb(230, 230, 230);
+  max-height: 250px;
+  padding: 5px 5px 5px 5px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+.block {
+  display: block;
+}
+
+.max-width-200 {
+  max-width: 200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.flex-row {
+  flex-direction: row;
+}
+
+.flex.items-center {
+  align-items: center;
+}
+
+.flex.justify-between {
+  justify-content: space-between;
+}
+
+.flex-noshrink {
+  flex-shrink: initial;
+}
+
+.flex.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-x-15 > * {
+  margin: 0px 15px 0px 0px;
+}
+
+.space-x-15 > *:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-white-3 {
+  background-color: rgb(252, 252, 252);
+}
+
+.bg-yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.bg-blue {
+  background-color: rgb(0, 110, 255);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black-50 {
+  color: rgb(50, 50, 50);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.shadow-xs {
+  box-shadow: 0px 0px 0.75px rgb(30, 30, 30);
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.rounded-sm {
+  border-radius: 5px;
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+#source {
+  background-color: white;
+  color: rgb(50, 50, 50);
+  border: 1px solid rgb(50, 50, 50);
+  font-weight: 600;
+  text-decoration: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sm-flex-col {
+    flex-direction: column !important;
+  }
+
+  .sm-space-x-0 > * {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .sm-space-y-15 > * {
+    margin: 15px 0px 15px 0px;
+  }
+
+  .sm-space-y-15 > *:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .sm-pl-1 {
+    padding-left: 1px;
+  }
+
+  .sm-pr-10 {
+    padding-right: 10px;
+  }
+}

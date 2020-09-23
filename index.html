@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contoh tag pada HTML" />
+
+    <title>HTML Dasar</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body class="bg-white-3 text-black-50">
+    <nav class="bg-white shadow-xs py-5">
+      <section
+        class="flex flex-row items-center justify-between flex-nowrap overflow-x-auto"
+      >
+        <a class="px-10 pl-0 sm-pl-1" href="#pengenalan">Pengenalan</a>
+        <a class="px-10" href="#editor">Editor</a>
+        <a class="px-10" href="#tag">Tag</a>
+        <a class="px-10" href="#heading">Heading</a>
+        <a class="px-10" href="#paragraf">Paragraf</a>
+        <a class="px-10" href="#list">List</a>
+        <a class="px-10" href="#tabel">Tabel</a>
+        <a class="px-10" href="#gambar">Gambar</a>
+        <a class="px-10 pr-0 sm-pr-10" href="#form">Form</a>
+      </section>
+    </nav>
+
+    <main>
+      <section class="py-50">
+        <h1 class="text-center mb-0">HTML Dasar</h1>
+        <p class="text-center mt-0 mb-0">
+          Referensi :
+          <a href="https://youtu.be/NBZ9Ro6UKV8" target="_blank"
+            >Web Programming UNPAS</a
+          >
+        </p>
+      </section>
+
+      <section id="pengenalan" class="mb-50">
+        <h2>Pengenalan HTML</h2>
+
+        <img
+          class="block img-cover rounded-full mx-auto"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/220px-Sir_Tim_Berners-Lee_%28cropped%29.jpg"
+          height="150"
+          width="150"
+          alt="Tim Berners-Lee"
+        />
+
+        <p>
+          HTML atau singkatan dari Hypertext Markup Language, adalah sebuah
+          bahasa markup yang berfungsi untuk memberitahu sebuah browser untuk
+          menampilkan sebuah konten. HTML pertama kali diciptakan oleh Tim
+          Berners-Lee yang sekarang menjabat sebagai direktur organisasi
+          <a href="https://w3.org" target="_blank">World Wide Web Consortium</a
+          >.
+        </p>
+
+        <p>
+          Dalam sebuah website, HTML merupakan sebuah manekin yang dapat dihias
+          dengan CSS sebagai aksesorisnya dan dengan bahasa pemrograman
+          Javascript, manekin tadi dapat diberi kemampuan untuk berinteraksi.
+        </p>
+
+        <p>
+          Sebagai contoh, website sederhana ini dibuat dengan meggunakan HTML,
+          CSS dan Javascript.
+        </p>
+      </section>
+
+      <section id="editor" class="mb-50">
+        <h2>Kode Editor</h2>
+
+        <p>
+          Untuk membuat kode HTML, diperlukan sebuah kode editor. Pada OS
+          Windows bisa menggunakan Notepad, tetapi disarankan untuk menggunakan
+          kode editor lain seperti Sublime Text atau Visual Studio Code.
+        </p>
+
+        <div
+          class="text-center flex flex-row space-x-15 sm-flex-col sm-space-x-0 sm-space-y-15"
+        >
+          <a
+            class="bg-yellow text-black-50 text-decoration-none rounded-sm px-10 py-5"
+            href="https://www.sublimetext.com/3"
+            target="_blank"
+            >Download Sublime Text</a
+          >
+          <a
+            class="bg-blue text-white text-decoration-none rounded-sm px-10 py-5"
+            href="https://code.visualstudio.com/Download"
+            target="_blank"
+            >Download VS Code</a
+          >
+        </div>
+      </section>
+
+      <section id="tag" class="mb-50">
+        <h2>Tag</h2>
+
+        <p class="mb-25">
+          Kode HTML terdiri atas beberapa tag berupa siku buka dan siku tutup.
+          Berikut contoh sederhananya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-html"></code>
+        </pre>
+
+        <p class="mb-25">
+          Dari contoh diatas, terlihat bahwa kode HTML terdiri atas 1 tag utama
+          yaitu tag html kemudian di dalamnya terdapat tag head dan tag body.
+        </p>
+
+        <p class="mb-25">
+          Berikut beberapa tag yang bisa berada di dalam tag head :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-head"></code>
+        </pre>
+
+        <p class="mb-25">
+          Berikut beberapa tag yang bisa berada di dalam tag body :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-body"></code>
+        </pre>
+
+        <p class="mb-25">
+          Tag HTML dapat memiliki satu atau lebih atribut, berikut beberapa
+          contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-attribute"></code>
+        </pre>
+
+        <p>
+          Sebenarnya masih banyak tag-tag HTML yang dapat digunakan, untuk lebih
+          lengkapnya bisa dilihat di
+          <a href="https://www.w3schools.com/tags" target="_blank">w3schools </a
+          >.
+        </p>
+      </section>
+
+      <section id="heading" class="mb-50">
+        <h2>Contoh heading</h2>
+
+        <p class="mb-25">
+          Tag h digunakan untuk membuat heading, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-h"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+      </section>
+
+      <section id="paragraf" class="mb-50">
+        <h2>Contoh paragraf</h2>
+
+        <p class="mb-25">
+          Tag p digunakan untuk membuat paragraf, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-p"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <p>Paragraf 1</p>
+        <p>Paragraf 2</p>
+        <p>Paragraf 3</p>
+      </section>
+
+      <section id="list" class="mb-50">
+        <h2>Contoh list</h2>
+
+        <p class="mb-25">
+          Tag ul digunakan untuk membuat list simbol, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-ul"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <ul class="mb-25">
+          <li>list simbol 1</li>
+          <li>list simbol 2</li>
+          <li>list simbol 3</li>
+        </ul>
+
+        <p class="mb-25">
+          Tag ol digunakan untuk membuat list angka, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-ol"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <ol>
+          <li>list angka 1</li>
+          <li>list angka 2</li>
+          <li>list angka 3</li>
+        </ol>
+      </section>
+
+      <section id="tabel" class="mb-50">
+        <h2>Contoh tabel</h2>
+
+        <p class="mb-25">
+          Tag table digunakan untuk membuat tabel, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-table"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>NIM</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Muhammad Faizal Fazri</td>
+              <td>1822490645</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="gambar" class="mb-50">
+        <h2>Contoh gambar</h2>
+
+        <p class="mb-25">
+          Tag img digunakan untuk menyisipkan gambar, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-img"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <img
+          src="https://via.placeholder.com/150"
+          height="150"
+          alt="contoh-gambar"
+        />
+      </section>
+
+      <section id="form" class="mb-50">
+        <h2>Contoh form</h2>
+
+        <p class="mb-25">
+          Tag form digunakan untuk membuat form, berikut adalah contohnya :
+        </p>
+
+        <pre class="text-black-50 mb-25">
+          <code id="contoh-tag-form"></code>
+        </pre>
+
+        <p class="mb-25">Kode di atas akan ditampilkan sebagai berikut :</p>
+
+        <form action="./index.html" method="get">
+          <label for="nama">Nama</label>
+          <input id="nama" name="nama" type="text" />
+
+          <label for="nim">NIM</label>
+          <input id="nim" name="nim" type="text" />
+
+          <span>Checkbox</span>
+          <label>
+            <input id="checkbox1" name="checkbox" value="1" type="checkbox" />
+            1
+          </label>
+          <label class="mb-15">
+            <input id="checkbox2" name="checkbox" value="2" type="checkbox" />
+            2
+          </label>
+
+          <span>Options</span>
+          <label>
+            <input id="options1" name="options" value="1" type="radio" />
+            1
+          </label>
+          <label class="mb-15">
+            <input id="options2" name="options" value="2" type="radio" />
+            2
+          </label>
+
+          <label for="text-area">Teks Area</label>
+          <textarea id="text-area" name="text-area" rows="5"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <a id="source" href="https://github.com/rfzsal/html-dasar" target="_blank"
+        >Source Code</a
+      >
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
